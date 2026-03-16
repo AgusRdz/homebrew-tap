@@ -6,20 +6,20 @@ class Ctx < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/AgusRdz/ctx/releases/download/v0.7.9/ctx-darwin-arm64"
-      sha256 "8d2114ea79431afc4a3b78cc30f41745299ab875eb8b26a1e0e6abe6ecd97797"
+      sha256 "974c5de4567168a2e9e5ebfc8e5879dd50a35b1842f0d48daa216db1e915e144"
     else
       url "https://github.com/AgusRdz/ctx/releases/download/v0.7.9/ctx-darwin-amd64"
-      sha256 "ec93dd580f5f0a09da50d3b2942341ac6e50afd13e7e1561c494beb38963eba8"
+      sha256 "fd296708725331a4915e71628f5457186aac24f5511641bb7326735bb8cbd06d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/AgusRdz/ctx/releases/download/v0.7.9/ctx-linux-arm64"
-      sha256 "7e18c94af4c6905e65a9a4452a22dfa32fbd09fc8f4bf856d105632b342338e8"
+      sha256 "3deff92d44fa2581b35246c1ab9505e06fdb311321f5fee61f1ec8d1fcaa9560"
     else
       url "https://github.com/AgusRdz/ctx/releases/download/v0.7.9/ctx-linux-amd64"
-      sha256 "8a16c6b4aa2b206f28e0ba8e35b4921296897cfb0ce5b464217380b825ccf62f"
+      sha256 "0febd095f2a4cd0495e6e1d199ce98c262aba7759ac8c1595ec579ac7e184d16"
     end
   end
 
