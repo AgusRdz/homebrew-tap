@@ -1,25 +1,25 @@
 class Ctx < Formula
   desc "Preserve and restore Claude Code session context across compactions"
   homepage "https://github.com/AgusRdz/ctx"
-  version "1.0.0"
+  version "1.1.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/AgusRdz/ctx/releases/download/v1.0.0/ctx-darwin-arm64"
-      sha256 "ec0c16d16c0b8b3a9bcd85eab7d8932d64eedd456ab8dbbcfb2924c04a48a8e3"
+      url "https://github.com/AgusRdz/ctx/releases/download/v1.1.0/ctx-darwin-arm64"
+      sha256 "a183e1295f4becaf2b91df814526bae52f0f657974c9b87d0e2304ff60755678"
     else
-      url "https://github.com/AgusRdz/ctx/releases/download/v1.0.0/ctx-darwin-amd64"
-      sha256 "06174522c6f95c58b53592fc7d611f64c58216baa694875012cab65a38e8d90a"
+      url "https://github.com/AgusRdz/ctx/releases/download/v1.1.0/ctx-darwin-amd64"
+      sha256 "2e471ee2bdfb45bbd42286437771c86e56c8607f3945b2149ed1c62987ae467c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/AgusRdz/ctx/releases/download/v1.0.0/ctx-linux-arm64"
-      sha256 "3c396c1f2c333b1c6298abbddc5dc4f1f5fd5912c7a374ec11ffc46fc5fb99a2"
+      url "https://github.com/AgusRdz/ctx/releases/download/v1.1.0/ctx-linux-arm64"
+      sha256 "f496effd0aa2347883dcfe2b1e32eb7026e333aac5a5cb88d5ae7297d8e47e62"
     else
-      url "https://github.com/AgusRdz/ctx/releases/download/v1.0.0/ctx-linux-amd64"
-      sha256 "e28b966f05bc0f161edb1c4b8b597015d75e399f95d06a3a52670148c982ac9a"
+      url "https://github.com/AgusRdz/ctx/releases/download/v1.1.0/ctx-linux-amd64"
+      sha256 "31aeb9afd9b34be3f877f8151ae7a165d591815f4800fb287986c83a03055d7c"
     end
   end
 
