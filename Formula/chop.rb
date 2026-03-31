@@ -1,25 +1,25 @@
 class Chop < Formula
   desc "CLI output compressor for Claude Code"
   homepage "https://getchop.run"
-  version "1.32.1"
+  version "1.33.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/AgusRdz/chop/releases/download/v1.32.1/chop-darwin-arm64"
-      sha256 "caaed7174756a08cfbc4606b261fbcdd102468ce3352945fd7acd4215d428f0f"
+      url "https://github.com/AgusRdz/chop/releases/download/v1.33.0/chop-darwin-arm64"
+      sha256 "bedadf451e947a9c3a8dd34fa746408c337f39fcc2dbfb2564efedef064ceac3"
     else
-      url "https://github.com/AgusRdz/chop/releases/download/v1.32.1/chop-darwin-amd64"
-      sha256 "860948c5b1a060b64af04a1030d0fd605a25e8e1c98bd98efd0c9d2dbb106e5e"
+      url "https://github.com/AgusRdz/chop/releases/download/v1.33.0/chop-darwin-amd64"
+      sha256 "9bfa3b23908178df70a23d44a794556bd45341406d2620d5adaa4bdef6a342e1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/AgusRdz/chop/releases/download/v1.32.1/chop-linux-arm64"
-      sha256 "7ea4b9aa05360ea67df82ee44cec88d633358bde8399708921c22ba393b9e259"
+      url "https://github.com/AgusRdz/chop/releases/download/v1.33.0/chop-linux-arm64"
+      sha256 "25af56bd45c7b9a404ed8ed9b31b7ae92542c179b6c9ce2d3dcf7f0ab31ba940"
     else
-      url "https://github.com/AgusRdz/chop/releases/download/v1.32.1/chop-linux-amd64"
-      sha256 "1ffa7a6dc50647edfa9b2633bf28c021383a11e638bfc03ac750e7450a51860e"
+      url "https://github.com/AgusRdz/chop/releases/download/v1.33.0/chop-linux-amd64"
+      sha256 "f2327342d9731ca1d3c20743f15db5f66b15aa710f8d3ce382cc188ebe21a92e"
     end
   end
 
